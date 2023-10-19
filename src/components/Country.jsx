@@ -31,7 +31,7 @@ const Country = ({ info }) => {
       >
         <h1>{name.common}</h1>
         <p>
-          Population: <span>{population.toLocaleString()}</span>
+          Population: <span>{population?.toLocaleString()}</span>
         </p>
         <p>
           Region: <span>{region}</span>

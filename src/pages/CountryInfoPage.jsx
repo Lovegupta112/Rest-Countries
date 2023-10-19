@@ -142,7 +142,7 @@ const CountryInfoPage = () => {
                   </p>
                   <p>
                     <span>Population: </span>
-                    {population.toLocaleString()}
+                    {population?.toLocaleString()}
                   </p>
                   <p>
                     <span>Region: </span>
