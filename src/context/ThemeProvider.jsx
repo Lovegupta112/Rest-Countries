@@ -5,7 +5,7 @@ import ThemeContext from './ThemeContext';
 const ThemeProvider=(props)=>{
 
 
-    const [isDarkModeExist, setIsDarkModeExist] = useState(false);
+    const [isDarkModeExist, setIsDarkModeExist] = useState(JSON.parse(localStorage.getItem('theme'))|| false);
 
     
     return (

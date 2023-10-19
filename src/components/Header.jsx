@@ -10,6 +10,7 @@ const Header = () => {
 
     const changeMode = () => {
         setIsDarkModeExist((isDarkModeExist) => isDarkModeExist ? false : true);
+        localStorage.setItem('theme',isDarkModeExist?false:true);
     }
 
     return (
